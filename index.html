@@ -28,16 +28,16 @@
         <!-- Home -->
         <section id="section-home">
             <header>
-                <h1>Hi User, Welcome to my website</h1>
+                <h1 class="inline">Hi <h1 class="inline" id="user-name">User<h1></h1>, Welcome to my website</h1>
             </header>
 
             <article>
                 <p>>Hai gesss </p>
 
                 <!-- Photo Banner nya ini -->
-                 <div class="photo-banner">
+                 <div class="photo-banner photo-1"></div>
+                 <div class="photo-banner photo-2"></div>
 
-                 </div>
 
             </article>
 
@@ -89,19 +89,21 @@
                 <h1>Message Us</h1>
             </header>
 
-            <section>
+            <section class="form-container">
                 <!-- Isi Formnya -->
-                <form>
+                <form onsubmit="return false;">
                     <div>
                         <label for="input-name">Nama</label>
-                        <input type="text" id="input-name" />
+                        <input type="text" id="input-name"/>
                     </div>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit" onclick="validateForm()">Submit</button>
                 </form>
 
                 <!-- Result Formnya -->
-                <div></div>
+                <div>
+                    <p>Result Form: <span id="result-form"></span></p>
+                </div>
 
             </section>
         </section>
@@ -115,7 +117,7 @@
         <p>Made By Abubakar Adni</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js\script.js"></script>
 
 </body>
 

@@ -29,9 +29,17 @@ nav>a {
 .photo-banner {
     border: 1px solid;
     height: 460px;
-    background-image: url(../assets/FotoCV.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.photo-1 {
+    background-image: url(../assets/LogoSuhu.JPG);
+
+}
+
+.photo-2 {
+    background-image: url(../assets/FotoCV.jpg);
 }
 
 .profile-icon {
@@ -53,4 +61,14 @@ nav>a {
     flex-direction: column;
     align-items: center;
 
+}
+
+.inline {
+    display: inline;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
