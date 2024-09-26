@@ -1,6 +1,6 @@
 //ini javascripts
 
-
+replaceName();
 
 function replaceName() {
     let name = prompt('Masukkan nama anda');
