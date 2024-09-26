@@ -1,1 +1,56 @@
 /*ini css */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    border: 3px solid;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo-icon {
+    height: 60px;
+    width: 60px;
+    background-image: url(../assets/FotoCV.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.photo-banner {
+    border: 1px solid;
+    height: 460px;
+    background-image: url(../assets/FotoCV.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-icon {
+    height: 60px;
+    width: 60px;
+    background-image: url(../assets/FotoCV.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.profile-icon-container {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.profile-icon-container>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
